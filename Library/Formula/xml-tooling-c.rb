@@ -1,9 +1,9 @@
 require 'formula'
 
 class XmlToolingC < Formula
-  url 'http://shibboleth.internet2.edu/downloads/opensaml/cpp/latest/xmltooling-1.3.3.tar.gz'
-  homepage 'https://spaces.internet2.edu/display/OpenSAML/XMLTooling-C'
-  md5 '3074edc8a00bba1d26c02e798ea8039c'
+  url 'http://www.shibboleth.net/downloads/c++-opensaml/2.4.3/xmltooling-1.4.2.tar.gz'
+  homepage 'https://wiki.shibboleth.net/confluence/display/OpenSAML/Home'
+  md5 '98ed7fb45c63cd6d03446f8c47dc645b'
 
   depends_on 'pkg-config' => :build
   depends_on 'log4shib'
